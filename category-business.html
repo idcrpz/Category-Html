@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management Jobs</title>
+    <style>
+        /* Styling */
+        body {
+            font-family: 'Impact', sans-serif;
+            background-color: #171f2e;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 60px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .job-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .job-card {
+            background-color: #1f2937;
+            border-radius: 12px;
+            width: 350px;
+            padding: 20px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+            color: #fff;
+        }
+
+        .job-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .job-card h3 {
+            font-size: 1.6rem;
+            color: #e7da8b;
+            margin: 15px 0 10px;
+        }
+
+        .job-card p {
+            color: #b0b0b0;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .job-details {
+            font-size: 0.9rem;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .job-details span {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .job-benefits,
+        .job-requirements {
+            font-size: 0.9rem;
+            color: #b0b0b0;
+            margin-top: 10px;
+        }
+
+        .job-benefits h4,
+        .job-requirements h4 {
+            font-size: 1rem;
+            color: #e7da8b;
+            margin-bottom: 5px;
+        }
+
+        .job-benefits span,
+        .job-requirements span {
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .apply-btn {
+            background-color: #e7da8b;
+            color: #171f2e;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .apply-btn:hover {
+            background-color: #fff;
+            color: #171f2e;
+        }
+
+        .back-btn {
+            background-color: #1f2937;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            border: 2px solid #fff;
+            text-align: center;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #fff;
+            color: #171f2e;
+        }
+
+        @media (max-width: 768px) {
+            .job-list {
+                padding: 20px;
+            }
+
+            .job-card {
+                width: 100%;
+                max-width: 400px;
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .job-card {
+                width: 100%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Business Management Jobs</h1>
+
+    <div class="job-list">
+        <!-- HR Manager Job Card -->
+        <div class="job-card">
+            <img src="https://www.faulkner.edu/wp-content/uploads/Female-human-resource-manager-shaking-hands-with-newly-hired-employees.jpg"
+                alt="HR Manager">
+            <h3>HR Manager</h3>
+            <p>Lead innovative recruitment strategies and shape organizational culture.</p>
+
+            <!-- Job Details -->
+            <div class="job-details">
+                <span><strong>Company:</strong> PeopleFirst HR</span>
+                <span><strong>Location:</strong> Singapore</span>
+                <span><strong>Job Type:</strong> Full-time</span>
+                <span><strong>Salary:</strong> ₱60,000</span>
+                <span><strong>Start Date:</strong> 01 Jan 2025</span>
+                <span><strong>Applications Open:</strong> 01 Nov 2024</span>
+                <span><strong>Applications Close:</strong> 14 Dec 2024</span>
+                <span><strong>Vacancies:</strong> 3</span>
+                <span><strong>Closing:</strong> Closing in 1 month</span>
+                <span><strong>Posted:</strong> Posted 1 hour ago</span>
+            </div>
+
+            <!-- Benefits and Requirements -->
+            <div class="job-benefits">
+                <h4>Benefits:</h4>
+                <span>Shape organizational culture</span>
+                <span>Lead innovative recruitment strategies</span>
+            </div>
+
+            <div class="job-requirements">
+                <h4>Requirements:</h4>
+                <span>Bachelor's degree in HR or related field</span>
+                <span>5+ years of HR management experience</span>
+                <span>Proficiency in HR software</span>
+            </div>
+
+            <!-- Apply Button -->
+            <a href="#" class="apply-btn">Apply Now</a>
+        </div>
+
+        <!-- Marketing Specialist Job Card -->
+        <div class="job-card">
+            <img src="https://www.sunmediamarketing.com/wp-content/uploads/2024/04/Specialist-Mastery_-The-Role-of-a-Digital-Marketing-Specialist-Skills-Strategies-for-Success.jpg"
+                alt="Marketing Specialist">
+            <h3>Marketing Specialist</h3>
+            <p>Work in a dynamic team to create innovative marketing strategies.</p>
+
+            <!-- Job Details -->
+            <div class="job-details">
+                <span><strong>Company:</strong> Market Leaders</span>
+                <span><strong>Location:</strong> Cebu, Philippines</span>
+                <span><strong>Job Type:</strong> Full-time</span>
+                <span><strong>Salary:</strong> ₱30,000 / Month</span>
+                <span><strong>Start Date:</strong> 15 Nov 2024</span>
+                <span><strong>Applications Open:</strong> 1 Oct 2024</span>
+                <span><strong>Applications Close:</strong> 14 Nov 2024</span>
+                <span><strong>Vacancies:</strong> 30</span>
+                <span><strong>Closing:</strong> Closing in 3 weeks</span>
+                <span><strong>Posted:</strong> Posted 1 week ago</span>
+            </div>
+
+            <!-- Benefits and Requirements -->
+            <div class="job-benefits">
+                <h4>Benefits:</h4>
+                <span>Work in a dynamic team</span>
+                <span>Health and wellness programs</span>
+                <span>Performance bonuses</span>
+            </div>
+
+            <div class="job-requirements">
+                <h4>Requirements:</h4>
+                <span>Bachelor's degree in Marketing, Business Administration, or related field</span>
+                <span>Experience in digital marketing</span>
+                <span>Excellent communication skills</span>
+            </div>
+
+            <!-- Apply Button -->
+            <a href="#" class="apply-btn">Apply Now</a>
+        </div>
+    </div>
+
+    <!-- Back to Categories Button -->
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="categories.html" class="back-btn">Back to Categories</a>
+    </div>
+</body>
+
+</html>
